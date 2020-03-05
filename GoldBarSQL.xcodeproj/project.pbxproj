@@ -3,27 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		EB37B52F241091ED00CAB25A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B52E241091ED00CAB25A /* AppDelegate.swift */; };
 		EB37B531241091ED00CAB25A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B530241091ED00CAB25A /* SceneDelegate.swift */; };
-		EB37B533241091ED00CAB25A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B532241091ED00CAB25A /* ViewController.swift */; };
-		EB37B536241091ED00CAB25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB37B534241091ED00CAB25A /* Main.storyboard */; };
 		EB37B538241091EF00CAB25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB37B537241091EF00CAB25A /* Assets.xcassets */; };
 		EB37B53B241091EF00CAB25A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB37B539241091EF00CAB25A /* LaunchScreen.storyboard */; };
+		EB37B5432410924F00CAB25A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B5422410924F00CAB25A /* ViewController.swift */; };
+		EB37B54B2410929400CAB25A /* structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B5442410929400CAB25A /* structs.swift */; };
+		EB37B54C2410929400CAB25A /* VCStudentDataAddOrEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B5452410929400CAB25A /* VCStudentDataAddOrEdit.swift */; };
+		EB37B54D2410929400CAB25A /* SQLGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B5462410929400CAB25A /* SQLGenerator.swift */; };
+		EB37B54E2410929400CAB25A /* TableResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B5472410929400CAB25A /* TableResources.swift */; };
+		EB37B54F2410929400CAB25A /* StudentDataSourceForTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B5482410929400CAB25A /* StudentDataSourceForTableView.swift */; };
+		EB37B5502410929400CAB25A /* StudentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B5492410929400CAB25A /* StudentDataSource.swift */; };
+		EB37B5512410929400CAB25A /* StudentTableDataManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B54A2410929400CAB25A /* StudentTableDataManipulation.swift */; };
+		EB37B553241092A800CAB25A /* readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB37B552241092A800CAB25A /* readme.rtf */; };
+		EB37B557241092AF00CAB25A /* QueryResultSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B554241092AF00CAB25A /* QueryResultSet.swift */; };
+		EB37B558241092AF00CAB25A /* RandomDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B555241092AF00CAB25A /* RandomDataGenerator.swift */; };
+		EB37B559241092AF00CAB25A /* PlainFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B556241092AF00CAB25A /* PlainFileService.swift */; };
+		EB37B55F241092B800CAB25A /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B55A241092B800CAB25A /* Executor.swift */; };
+		EB37B560241092B800CAB25A /* FMResultProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B55B241092B800CAB25A /* FMResultProcessing.swift */; };
+		EB37B561241092B800CAB25A /* DatabaseCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B55C241092B800CAB25A /* DatabaseCommand.swift */; };
+		EB37B562241092B800CAB25A /* DatabaseQue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B55D241092B800CAB25A /* DatabaseQue.swift */; };
+		EB37B563241092B800CAB25A /* DatabaseConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB37B55E241092B800CAB25A /* DatabaseConnection.swift */; };
+		EB37B565241092D200CAB25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB37B564241092D200CAB25A /* Main.storyboard */; };
+		EB37B5682410932700CAB25A /* FMDB in Frameworks */ = {isa = PBXBuildFile; productRef = EB37B5672410932700CAB25A /* FMDB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB37B52B241091ED00CAB25A /* GoldBarSQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldBarSQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB37B52E241091ED00CAB25A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB37B530241091ED00CAB25A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB37B532241091ED00CAB25A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB37B535241091ED00CAB25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB37B537241091EF00CAB25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB37B53A241091EF00CAB25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB37B53C241091EF00CAB25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB37B5422410924F00CAB25A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../Real/GoldBar_V2ForGithub/GoldBar_V2ForGithub/ViewController.swift; sourceTree = "<group>"; };
+		EB37B5442410929400CAB25A /* structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structs.swift; sourceTree = "<group>"; };
+		EB37B5452410929400CAB25A /* VCStudentDataAddOrEdit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCStudentDataAddOrEdit.swift; sourceTree = "<group>"; };
+		EB37B5462410929400CAB25A /* SQLGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLGenerator.swift; sourceTree = "<group>"; };
+		EB37B5472410929400CAB25A /* TableResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableResources.swift; sourceTree = "<group>"; };
+		EB37B5482410929400CAB25A /* StudentDataSourceForTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDataSourceForTableView.swift; sourceTree = "<group>"; };
+		EB37B5492410929400CAB25A /* StudentDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDataSource.swift; sourceTree = "<group>"; };
+		EB37B54A2410929400CAB25A /* StudentTableDataManipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableDataManipulation.swift; sourceTree = "<group>"; };
+		EB37B552241092A800CAB25A /* readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = readme.rtf; sourceTree = "<group>"; };
+		EB37B554241092AF00CAB25A /* QueryResultSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryResultSet.swift; sourceTree = "<group>"; };
+		EB37B555241092AF00CAB25A /* RandomDataGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomDataGenerator.swift; sourceTree = "<group>"; };
+		EB37B556241092AF00CAB25A /* PlainFileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainFileService.swift; sourceTree = "<group>"; };
+		EB37B55A241092B800CAB25A /* Executor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Executor.swift; sourceTree = "<group>"; };
+		EB37B55B241092B800CAB25A /* FMResultProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMResultProcessing.swift; sourceTree = "<group>"; };
+		EB37B55C241092B800CAB25A /* DatabaseCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseCommand.swift; sourceTree = "<group>"; };
+		EB37B55D241092B800CAB25A /* DatabaseQue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseQue.swift; sourceTree = "<group>"; };
+		EB37B55E241092B800CAB25A /* DatabaseConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseConnection.swift; sourceTree = "<group>"; };
+		EB37B564241092D200CAB25A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB37B5682410932700CAB25A /* FMDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +92,24 @@
 			children = (
 				EB37B52E241091ED00CAB25A /* AppDelegate.swift */,
 				EB37B530241091ED00CAB25A /* SceneDelegate.swift */,
-				EB37B532241091ED00CAB25A /* ViewController.swift */,
-				EB37B534241091ED00CAB25A /* Main.storyboard */,
+				EB37B5422410924F00CAB25A /* ViewController.swift */,
+				EB37B5462410929400CAB25A /* SQLGenerator.swift */,
+				EB37B5442410929400CAB25A /* structs.swift */,
+				EB37B552241092A800CAB25A /* readme.rtf */,
+				EB37B5492410929400CAB25A /* StudentDataSource.swift */,
+				EB37B55C241092B800CAB25A /* DatabaseCommand.swift */,
+				EB37B55E241092B800CAB25A /* DatabaseConnection.swift */,
+				EB37B55D241092B800CAB25A /* DatabaseQue.swift */,
+				EB37B55A241092B800CAB25A /* Executor.swift */,
+				EB37B564241092D200CAB25A /* Main.storyboard */,
+				EB37B55B241092B800CAB25A /* FMResultProcessing.swift */,
+				EB37B556241092AF00CAB25A /* PlainFileService.swift */,
+				EB37B554241092AF00CAB25A /* QueryResultSet.swift */,
+				EB37B555241092AF00CAB25A /* RandomDataGenerator.swift */,
+				EB37B5482410929400CAB25A /* StudentDataSourceForTableView.swift */,
+				EB37B54A2410929400CAB25A /* StudentTableDataManipulation.swift */,
+				EB37B5472410929400CAB25A /* TableResources.swift */,
+				EB37B5452410929400CAB25A /* VCStudentDataAddOrEdit.swift */,
 				EB37B537241091EF00CAB25A /* Assets.xcassets */,
 				EB37B539241091EF00CAB25A /* LaunchScreen.storyboard */,
 				EB37B53C241091EF00CAB25A /* Info.plist */,
@@ -83,6 +133,9 @@
 			dependencies = (
 			);
 			name = GoldBarSQL;
+			packageProductDependencies = (
+				EB37B5672410932700CAB25A /* FMDB */,
+			);
 			productName = GoldBarSQL;
 			productReference = EB37B52B241091ED00CAB25A /* GoldBarSQL.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,9 @@
 				Base,
 			);
 			mainGroup = EB37B522241091ED00CAB25A;
+			packageReferences = (
+				EB37B5662410932700CAB25A /* XCRemoteSwiftPackageReference "fmdb" */,
+			);
 			productRefGroup = EB37B52C241091ED00CAB25A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB37B53B241091EF00CAB25A /* LaunchScreen.storyboard in Resources */,
+				EB37B565241092D200CAB25A /* Main.storyboard in Resources */,
 				EB37B538241091EF00CAB25A /* Assets.xcassets in Resources */,
-				EB37B536241091ED00CAB25A /* Main.storyboard in Resources */,
+				EB37B553241092A800CAB25A /* readme.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +195,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB37B533241091ED00CAB25A /* ViewController.swift in Sources */,
+				EB37B560241092B800CAB25A /* FMResultProcessing.swift in Sources */,
+				EB37B559241092AF00CAB25A /* PlainFileService.swift in Sources */,
+				EB37B557241092AF00CAB25A /* QueryResultSet.swift in Sources */,
+				EB37B54D2410929400CAB25A /* SQLGenerator.swift in Sources */,
+				EB37B561241092B800CAB25A /* DatabaseCommand.swift in Sources */,
+				EB37B558241092AF00CAB25A /* RandomDataGenerator.swift in Sources */,
+				EB37B54B2410929400CAB25A /* structs.swift in Sources */,
+				EB37B54F2410929400CAB25A /* StudentDataSourceForTableView.swift in Sources */,
+				EB37B55F241092B800CAB25A /* Executor.swift in Sources */,
+				EB37B5512410929400CAB25A /* StudentTableDataManipulation.swift in Sources */,
+				EB37B562241092B800CAB25A /* DatabaseQue.swift in Sources */,
 				EB37B52F241091ED00CAB25A /* AppDelegate.swift in Sources */,
+				EB37B5502410929400CAB25A /* StudentDataSource.swift in Sources */,
+				EB37B5432410924F00CAB25A /* ViewController.swift in Sources */,
+				EB37B54C2410929400CAB25A /* VCStudentDataAddOrEdit.swift in Sources */,
 				EB37B531241091ED00CAB25A /* SceneDelegate.swift in Sources */,
+				EB37B563241092B800CAB25A /* DatabaseConnection.swift in Sources */,
+				EB37B54E2410929400CAB25A /* TableResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB37B534241091ED00CAB25A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB37B535241091ED00CAB25A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB37B539241091EF00CAB25A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,6 +402,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB37B5662410932700CAB25A /* XCRemoteSwiftPackageReference "fmdb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ccgus/fmdb.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB37B5672410932700CAB25A /* FMDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB37B5662410932700CAB25A /* XCRemoteSwiftPackageReference "fmdb" */;
+			productName = FMDB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB37B523241091ED00CAB25A /* Project object */;
 }
